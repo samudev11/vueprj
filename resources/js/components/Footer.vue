@@ -3,6 +3,10 @@
        <div class="jumbotron jumbotron-fluid" style="background-color:#212529;">
          <a href="https://lotusestudi.com" style="color:white;">Samuel Chicón</a> 
        </div>
+       <div class="row">
+         
+       </div>
+
   </div>
 </template>
 <script>
