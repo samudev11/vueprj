@@ -1,0 +1,13 @@
+.contenedor{
+    padding:1em;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px,1fr));
+    grid-gap: 1em;   
+    
+}
+
+.usuario{
+    border-radius: 10px;
+    position: relative;
+    min-height: 10em;
+}

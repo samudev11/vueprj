@@ -29,11 +29,11 @@ window.Vue = require('vue');
 Vue.component('example-component', require('./components/ExampleComponent.vue').default);
  Vue.component('main-section',{
      props:['user'],
-     template:"<div class='container row text-center'> <ul class='list-group' style='width:100%;'>"
-     + " <li class='list-group-item'>"
+     template:"<ul class='list-group' style='width:100%;'>"
+     + " <div class='usuario'><li class='list-group-item'>"
              + "<strong>{{user.name.first}} {{user.name.last}} </strong>| {{user.email}} <br>"
              + "Direccion: {{user.location.street.name}}, {{user.location.street.number}}  | Ciudad: {{user.location.city}} | CP: {{user.location.postcode}} <br>"
-         + "</li>  </ul> </div>",
+         + "</li> </div> </ul>",
  });
 Vue.component('navbar-menu', require('./components/NavBarMenu.vue').default);
 Vue.component('footer-section', require('./components/Footer.vue').default);

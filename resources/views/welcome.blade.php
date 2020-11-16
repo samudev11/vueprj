@@ -81,11 +81,11 @@
                 </div>
               </div>
               <br>
-              <h2 style="text-align: center;">Listado de usuarios</h2>
-            <div class="container">
-                <div class="col-md-12 justify-content-center" style="align-content: center;">
+              <h2 style="text-align: center;">Listado de usuarios (Flex grid CSS)</h2>
+            <div class="contenedor">
+                
                     <main-section v-for="user in listUsers" :user="user"></main-section>
-                </div>
+                
             </div>
            
 
