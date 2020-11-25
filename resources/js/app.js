@@ -7,6 +7,9 @@
 const { default: Axios } = require('axios');
 
 require('./bootstrap');
+require("bootstrap-css-only/css/bootstrap.min.css");
+require("mdbvue/lib/css/mdb.min.css");
+require("@fortawesome/fontawesome-free/css/all.min.css");
 
 window.Vue = require('vue');
 
@@ -38,6 +41,7 @@ Vue.component('example-component', require('./components/ExampleComponent.vue').
 Vue.component('navbar-menu', require('./components/NavBarMenu.vue').default);
 Vue.component('footer-section', require('./components/Footer.vue').default);
 Vue.component('tareas', require('./components/Tareas.vue').default);
+Vue.component('login', require('./components/Login.vue').default);
 Vue.component('apiext', require('./components/ApiExt.vue'), {
      props:['listUsers']
  });
