@@ -19,3 +19,6 @@ Route::get('/', function () {
 
 Route::get('tarea', [TareaController::class, 'index'])->name('tareas.index');
 Route::post('tarea', [TareaController::class, 'store'])->name('tareas.store');
+Route::get('login', function(){
+    return view('login');
+});
